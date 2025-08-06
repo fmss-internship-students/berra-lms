@@ -107,6 +107,9 @@ import java.util.List;
 
             for (Book book : books) {
                 System.out.println("Kitap Adı: " + book.getBookName());
+                System.out.println("Yazar Adı: " + book.getAuthorName());
+                System.out.println("Sayfa Sayısı: " + book.getPageCount());
+                System.out.println("Kitap Adedi: " + book.getCount());
             }
 
         return books;
